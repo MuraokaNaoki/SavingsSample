@@ -53,6 +53,7 @@ def saving_money():
         print(month,"月の貯金額は",saving_amount_month,"円でした！")
         saving_defference = month_object - saving_amount_month
         object_judge = spend_amount - useable_money_month
+        next_month = int(month) + 1
 
         if saving_defference >= 0:
             print("目標の貯金額",month_object,"円まで",saving_defference,"円足りていません。来月はもっと節約できるように頑張りましょう。\n")
